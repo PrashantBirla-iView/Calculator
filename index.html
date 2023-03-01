@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div class="card">
+            <h1 style="margin-bottom: 2rem; color: #204051;">Calculator</h1>
+            <input type="text" id="output" value="" placeholder="0" readonly>
+            <div class="first-row">
+                <button onclick="addInputValue(this.innerHTML)" id="one">1</button>
+                <button onclick="addInputValue(this.innerHTML)" id="two">2</button>
+                <button onclick="addInputValue(this.innerHTML)" id="three">3</button>
+                <button onclick="addInputValue(this.innerHTML)" id="minus">-</button>
+            </div>
+            <div class="second-row">
+                <button onclick="addInputValue(this.innerHTML)" id="four">4</button>
+                <button onclick="addInputValue(this.innerHTML)" id="five">5</button>
+                <button onclick="addInputValue(this.innerHTML)" id="six">6</button>
+                <button onclick="addInputValue(this.innerHTML)" id="plus">+</button>
+            </div>
+            <div class="third-row">
+                <button onclick="addInputValue(this.innerHTML)" id="seven">7</button>
+                <button onclick="addInputValue(this.innerHTML)" id="eight">8</button>
+                <button onclick="addInputValue(this.innerHTML)" id="nine">9</button>
+                <button onclick="addInputValue(this.innerHTML)" id="mul">*</button>
+            </div>
+            <div class="fourth-row">
+                <button onclick="answer()" id="enter">=</button>
+                <button onclick="addInputValue(this.innerHTML)" id="zero">0</button>
+                <button onclick="clearFunc()" id="clear">C</button>
+                <button onclick="addInputValue(this.innerHTML)" id="div">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
